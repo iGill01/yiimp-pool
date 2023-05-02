@@ -1,5 +1,5 @@
-## Dirty Harry`s YiiMP Server Installer !
-
+## iGill01 YiiMP Server Installer !
+##Forked From DH and fixed issue with MariaDB Repository 
 ## This is opened as a public repo - all features are not final!
 
 All in one installer for your yiimp server.
