@@ -1,6 +1,6 @@
 ## iGill01 YiiMP Server Installer !
 ##Forked From DH and fixed issue with MariaDB Repository 
-in yiimpserver/yiimp_single/system.sh replace with below code
+##in yiimpserver/yiimp_single/system.sh replace with below code
 on line no.60: # MariaDB
 echo -e " Installing MariaDB Repository...$COL_RESET"
 hide_output sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
@@ -8,6 +8,8 @@ if [[ ("$DISTRO" == "16") ]]; then
   sudo add-apt-repository 'deb [arch=amd64,arm64,i386,ppc64el] http://mirror.one.com/mariadb/repo/10.4/ubuntu xenial ma$else
   sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.one.com/mariadb/repo/10.4/ubuntu bionic main' >$fi
 echo -e "$GREEN Done...$COL_RESET"
+
+
 
 ## This is opened as a public repo - all features are not final!
 
