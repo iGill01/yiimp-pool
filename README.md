@@ -7,7 +7,7 @@ hide_output sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:
 if [[ ("$DISTRO" == "16") ]]; then
   sudo add-apt-repository 'deb [arch=amd64,arm64,i386,ppc64el] http://mirror.one.com/mariadb/repo/10.4/ubuntu xenial ma$else
   sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.one.com/mariadb/repo/10.4/ubuntu bionic main' >$fi
-echo -e "$GREEN Done...$COL_RESET"
+echo -e "$GREEN Done...$COL_RESET" 
 
 
 
